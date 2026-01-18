@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IRCTC App Redesign</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Login Screen -->
+  <div class="screen" id="loginScreen">
+    <h1>IRCTC</h1>
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <button onclick="goHome()">Login</button>
+    <p class="link">Forgot Password?</p>
+  </div>
+
+  <!-- Home Screen -->
+  <div class="screen hidden" id="homeScreen">
+    <h2>Welcome</h2>
+
+    <button class="main-btn">Book Ticket</button>
+    <button class="main-btn">My Bookings</button>
+    <button class="main-btn">PNR Status</button>
+
+    <div class="nav">
+      <span>Home</span>
+      <span>Search</span>
+      <span>Tickets</span>
+      <span>Profile</span>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
